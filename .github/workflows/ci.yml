@@ -50,7 +50,7 @@ jobs:
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: 'ghcr.io/Tomwang1978/docker-test:main'
+          image-ref: 'ghcr.io/tomwang1978/docker-test:main'
           format: 'table'
           exit-code: '0'
           ignore-unfixed: true
